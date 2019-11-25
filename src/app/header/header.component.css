@@ -1,0 +1,24 @@
+.navmain{
+    /* background-image: linear-gradient(rgb(255, 94, 0),rgba(255, 123, 0, 0.9)); */
+    background-color: #F76439 !important;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #ffffff;
+}
+
+.navMain .signin{
+        padding: 8px 28px;
+        border-radius: 21px;
+        background: none;
+        border: solid 1px rgba(255,255,255,0.5);
+        color: #ffffff !important;
+        font-weight: bold;
+}
+/* .navMain:hover{
+    background-color: #ffffff;
+    color: #F76439 !important;
+} */
+.navMain .signin:hover{
+    background-color: #ffffff;
+    color: #F76439 !important;
+}

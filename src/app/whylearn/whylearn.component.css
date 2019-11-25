@@ -1,0 +1,134 @@
+/* .learn-slider .vedantu-testimonials {
+    /* display: inline-block; */
+    /* margin: 0 0 37px; */
+    /* width: 100%;
+    vertical-align: top; */
+/* }  */
+/* .vedantu-testimonials .image-holder {
+    width: 106px;
+    height: 106px;
+} */
+
+.vedantu-testimonials .image-holder {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f7f6fa;
+    display: inline-block;
+	position: relative;
+	right: -91px;
+}
+.vedantu-testimonials .image.teacher {
+    width: 46px;
+    height: 39px;
+    top: calc(50% - 20px);
+    right: calc(50% - 27px);
+}
+.vedantu-testimonials .image {
+    display: inline-block;
+    position: absolute;
+    width: 45px;
+    height: 36px;
+	overflow: hidden;
+	top: 18px;
+    left: 11px;
+}
+
+    @media (max-width: 576px){
+        .vedantu-testimonials img {
+            width: 100%;
+            transform: scale(3.9);
+            position: absolute;
+        }
+    .image.teacher img {
+        left: 10px;
+        top: 31px;
+    }
+    .vedantu-testimonials:last-child{
+            display: none;
+    }
+    .vedantu-testimonials:nth-child(2) {
+        display: none;
+ }
+ .vedantu-testimonials:nth-child(3) {
+        display: none;
+ }
+    } 
+
+@media (min-width: 1024px){
+	.vedantu-testimonials img {
+		width: 100%;
+		transform: scale(3.9);
+		position: absolute;
+	}
+.image.teacher img {
+    left: 58px;
+    top: 31px;
+}
+
+}
+
+@media (min-width: 1024px){
+.image.Teaching img {
+    left: 12px;
+    top: 26px;
+}
+.image.Safe img {
+	left: 69px;
+    top: -16px;
+}
+.image.Interactive img {
+    left: 12px;
+    top: 26px;
+}
+.title, .text{
+	text-align: center;
+}
+
+.txt1{  
+	font-size: 36px;
+}
+.txt2{
+	font-size: 20px;
+}
+}
+.video{
+	height: 352px;
+}
+.txt{
+	position: absolute;
+    top: 274px;
+    left: 10%;
+    z-index: 1;
+    text-align: center;
+}
+@media (max-width: 576px){
+    .txt{
+        position: absolute;
+        top: 260px;
+    left: 0%;
+        z-index: 1;
+        text-align: center;
+
+    }
+    .txt1{  
+        font-size: 26px;
+    }
+    .txt2{
+        font-size: 10px;
+    }
+}
+
+
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	padding: 423px 0px 26px;
+    border-radius: 10px;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    width: 100%;;
+}
+.overlay img{
+	left: 0;
+}
