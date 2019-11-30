@@ -33,3 +33,17 @@
         color: #ffffff;
         background-color: orangered;
 }
+
+.select-image{
+    top: 31px;
+    left: 6px;
+    overflow: hidden;
+    position: relative;
+    height: 133px;
+}
+.select-image img {
+left: -113px;
+top: -44px;
+position: absolute;
+width: 231%;
+}
