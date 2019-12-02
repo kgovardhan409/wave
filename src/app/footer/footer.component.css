@@ -1,0 +1,40 @@
+
+footer{
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 13px;
+}
+
+.connect a:hover, footer ul li a:hover{
+    color: #fc6c2d;
+  }
+
+footer ul li a, .connect a{
+    text-decoration: none;
+    color: #c6c6c7;
+  }
+
+  footer .para{
+      color: #c6c6c7;
+      font-size: 10px
+  }
+  
+  footer .icons ul li{
+            border: 3px solid #c6c6c7;
+            border-radius: 50%;
+            margin-left: 10px;
+            height: 45px;
+            width: 45px;
+            text-align: center;
+            color: #c6c6c7;
+  }
+  footer .icons ul li:hover{
+        background-color: #fff;
+        color: #fc6c2d;
+  }
+  footer .icons ul li a{
+      font-size: 30px;
+  }
+  .connect a{
+      text-decoration: none;
+  }

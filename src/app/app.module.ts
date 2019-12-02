@@ -8,6 +8,12 @@ import { HomeComponent } from './home/home.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { WhylearnComponent } from './whylearn/whylearn.component';
 import { OfferingsComponent } from './offerings/offerings.component';
+import { NewsComponent } from './news/news.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NewsPaperComponent } from './news-paper/news-paper.component';
+import { HiringComponent } from './hiring/hiring.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +22,17 @@ import { OfferingsComponent } from './offerings/offerings.component';
     HomeComponent,
     HomeBannerComponent,
     WhylearnComponent,
-    OfferingsComponent
+    OfferingsComponent,
+    NewsComponent,
+    TestimonialsComponent,
+    FooterComponent,
+    NewsPaperComponent,
+    HiringComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

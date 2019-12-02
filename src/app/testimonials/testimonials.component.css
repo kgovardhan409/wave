@@ -1,0 +1,36 @@
+/* .testimony-video-section{
+    position: relative;
+    top: -847px;
+    left: 51%;
+    z-index: 10;
+} */
+/* .testimony-image{
+        width: 28%;
+        height: 50%;
+} */
+
+.video-play {
+    position: relative;
+    top: -160px;
+    text-align: center;
+}
+@media (max-width: 576px){
+    .video-play{
+        position: relative;
+        top: -100px;
+        text-align: center;
+    }
+}
+.testimony{
+    background-color: #5d2bb5bf;
+}
+.testimonyImg{
+    width: 100px;
+    height: 100px;
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+}
+
+.testimonyImg::after{
+    content: "Parent";
+}

@@ -35,15 +35,31 @@
 }
 
 .select-image{
-    top: 31px;
-    left: 6px;
-    overflow: hidden;
-    position: relative;
-    height: 133px;
+        top: 31px;
+        left: 6px;
+        overflow: hidden;
+        position: relative;
+        height: 133px;
 }
 .select-image img {
-left: -113px;
-top: -44px;
-position: absolute;
-width: 231%;
+    left: -113px;
+    top: -44px;
+    position: absolute;
+    width: 231%;
+}
+
+@media (max-width: 576px){
+    .select-image{
+        display: none;
+}
+    .title{
+        display: block !important;
+    }
+    
+}
+
+@media (max-width: 1600px){
+    .one-one {
+        display: flex;    
+    }
 }

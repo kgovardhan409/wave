@@ -1,0 +1,14 @@
+.news{
+    color: orangered;
+    font-size: 30px;
+    /* font-weight: bold; */
+    background-image: url('https://d13mydmqxbdcgk.cloudfront.net/cdn/images/new-homepage/homepage-numberbg.png?ver=11.94');
+    background-repeat: none;
+}
+.number::after{
+    content: "+";
+}
+.text{
+    font-size: 15px;
+    color: black;
+}

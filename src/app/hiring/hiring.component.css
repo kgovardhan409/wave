@@ -1,0 +1,19 @@
+.hiring{
+    background-color: orangered;
+    color: #fff;
+    padding-left: 10%;
+}
+
+.openbtn{
+        background-color: #fff;
+        color: orangered;
+        font-size: 20px;
+        border: 1px solid #fff;
+        border-radius: 28px;
+        margin: 18px 0;
+}
+.openbtn a{
+    text-decoration: none;
+    color: orangered;
+    padding: 7px;
+}
