@@ -38,3 +38,7 @@ footer ul li a, .connect a{
   .connect a{
       text-decoration: none;
   }
+  .git{
+      color: orangered;
+      font-size: 17px;
+  }
