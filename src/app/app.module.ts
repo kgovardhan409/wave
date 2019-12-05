@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NewsPaperComponent } from './news-paper/news-paper.component';
 import { HiringComponent } from './hiring/hiring.component';
+import { LoginComponent } from './login/login.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { HiringComponent } from './hiring/hiring.component';
     TestimonialsComponent,
     FooterComponent,
     NewsPaperComponent,
-    HiringComponent
+    HiringComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
